@@ -1,0 +1,42 @@
+html {
+box-sizing: border-box;
+}
+*,
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: fit-content;
+    margin: 2%;
+}
+
+h1, h2 {
+    margin: 2%;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 1%;
+    margin: 1%;
+    list-style-type: none;
+}
+
+.ingredients li {
+    padding: .5%;
+    list-style: circle inside;
+}
+
+ol li {
+    padding: .5%;
+    list-style: decimal inside;
+}
+
+section, p, ul, ol {
+    margin: 2%;
+}

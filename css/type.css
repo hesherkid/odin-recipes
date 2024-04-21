@@ -1,0 +1,28 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+li a:link {
+    color: rgb(8, 238, 96);
+}
+
+li a:visited {
+    color: rgb(220, 35, 236)
+}
+
+li a:hover {
+    color: rgb(42, 31, 150)
+}
+
+li a:active {
+    color: rgb(235, 158, 70);
+}
